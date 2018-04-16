@@ -1,0 +1,298 @@
+body{
+	width: 1000px;
+	margin: 0px auto;
+
+}
+
+/* Headings */
+
+h1{
+	max-width: 50%;
+	width: 450px;
+	float:left;
+
+}
+
+h2{
+	font-size: 15px;
+	color: #000000;
+	font-family: Verdana, sans-serif;
+	font-style: normal;
+	
+	
+}
+
+h3{
+	margin: 0px auto;
+	float:left;
+	margin-top:10px;
+	margin-bottom: 25px;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+h4{
+	text-align: center;
+
+
+}
+
+/* Center class: attach to any image you want centered on page */
+
+.center {
+	width: 100%;
+    display: block;
+    margin: 0px auto; 
+}
+
+/* Code for any image to limit width/height...I think */
+
+img{
+	margin-bottom: 25px;
+	max-width: 60%;
+	max-height:60%;
+
+}
+
+/* Home Page Code */
+
+/*Nav bar */
+
+/* Nav links */
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#content ul{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	margin-top: 70px;
+	float:right;
+	width: 480px;
+}
+
+#content li{
+	padding-right: 15px;
+	padding-bottom: 8px;
+	padding-top: 20px;
+	font-size: 10px;
+	color: #b0b0b0;
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline;
+	font-family: Verdana, sans-serif;
+}
+
+/*Code used for Home page lower grid boxes */
+
+.box{
+	text-align: center;
+	font-size: 10px;
+	color: #b0b0b0;
+	font-family: Verdana, sans-serif;
+	height: 75px;
+	width: 180px;
+	float: left;
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-top-style: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.clear{
+	clear: both;
+}
+
+#rightbox{
+	border-right: none;
+}
+
+#leftbox{
+	margin-left: 170px;
+}
+
+/* End of Home Page */
+
+/* Class Descriptions Page */
+
+/* Used to format three column headings at top of page */
+
+#hours p{
+	float:left;
+	width: 325px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.clear{
+	clear: both;
+}
+
+/* Upper text boxes code*/
+
+#hoursLeft{
+	width: 300px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	padding-left:30px;
+	padding-bottom: 30px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+#hoursRight{
+	width: 300px;
+	margin:0px;
+	padding:0px;
+	float:right;
+	padding-left:30px;
+	padding-bottom: 30px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+
+#hoursMiddle{
+	width: 300px;
+	margin:0px;
+	padding:0px;
+	float: left;
+	padding-left:30px;
+	padding-bottom: 30px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+/* Code used for lower text boxes */
+
+#leftClasses{
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	padding-left: 30px;
+	padding-top:30px;
+
+
+}
+
+.clear{
+	clear: both;
+}
+
+#middleClasses{
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	padding-left: 30px;
+	padding-top:30px;
+
+}
+
+.clear{
+	clear: both;
+}
+
+/* Calendar image */
+
+.right{
+	width: 300px;
+	float: right;
+	padding-top: 30px;
+}
+
+.clear{
+	clear: both;
+}
+
+/* End of Class Descriptions */
+
+/* Daycare Page Code */
+
+/* Used for daycare lower images to make them smaller/not centered */
+
+.daycare{
+	width:100%;
+	
+	max-height: 40%;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 125px;
+	width: 180px;
+
+}
+
+/* Used to increase padding on just lower left image */
+
+#leftImage{
+	padding-left: 195px;
+}
+
+/*Lower text boxes  */
+
+#leftDaycare{
+	width: 40%;
+	margin:0px;
+	padding:0px;
+	float:left;
+	padding-left:150px;
+}
+
+.clear{
+	clear: both;
+}
+
+#rightDaycare{
+	width: 40%;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+
+.clear{
+	clear: both;
+}
+
+/* End of Daycare */
+
+
+/* Footer code */
+
+#footer{
+		font-size: 10px;
+		color: #000000;
+		font-family: Verdana, sans-serif;
+		text-align: center;
+		
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding-bottom: 50px; 
+} 
